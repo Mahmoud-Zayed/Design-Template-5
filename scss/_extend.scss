@@ -1,0 +1,39 @@
+// extend
+.w_f {
+    width: 50%;
+    float: left;
+}
+.h2 {
+    font-size: 3rem;
+    color: #fff;
+}
+.span {
+    display: block;
+            width: 40px;
+            height: 2px;
+            background-color: $primaryColor;
+            margin: 1rem auto;
+}
+.p {
+    margin: 1.5rem 0;
+    color: #c9c5bd;
+    letter-spacing: 2px;
+    line-height: 1.2;
+}
+.button {
+    background-color: $primaryColor;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 15px 22px;
+    border-radius: 20px;
+    border: 0;
+    font-weight: bold;
+    cursor: pointer;
+    @include Trans;
+    border: 1px solid $primaryColor;
+    &:hover {
+        background-color:$secondaryColor;
+        color: #fff;
+        border: 1px solid #fff;;
+    }
+}
